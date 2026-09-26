@@ -1,0 +1,60 @@
+﻿PAO TÁVTÁMOGATÁS — TÁJÉKOZTATÓ
+==============================================================
+
+Erre a gépre távtámogatási hozzáférés került. Ez a lap azt írja le,
+pontosan mit jelent ez, és hogyan lehet bármikor megszüntetni.
+
+
+MI KERÜLT A GÉPRE
+------------------------------------------------------------
+Egy "Mesh Agent" nevű Windows-szolgáltatás. Ez a szolgáltatás
+KIFELÉ kapcsolódik a támogató szerveréhez. Ehhez nem kellett
+és nem is történt semmilyen portnyitás a routeren.
+
+
+MIRE AD LEHETŐSÉGET
+------------------------------------------------------------
+A támogató távolról:
+  - parancsot futtathat a gépen (pl. hibakeresés, beállítás),
+  - fájlt másolhat ide vagy innen,
+  - ha szükséges, láthatja a képernyőt, és használhatja
+    az egeret és a billentyűzetet.
+
+Ez ugyanaz a hozzáférés, mint amikor valaki leül a gép elé.
+Ezért érdemes tudni, ki és mikor él vele.
+
+
+MIT LÁTSZ, AMIKOR VALAKI BEJÖN
+------------------------------------------------------------
+Csatlakozáskor látható jelzést kap a gép. A támogatás nem
+történik észrevétlenül.
+
+
+MI NEM TÖRTÉNIK
+------------------------------------------------------------
+  - Nem nyílt bejövő port a routeren vagy a tűzfalon.
+  - Nem készül folyamatos felvétel a képernyőről.
+  - A gép nem lett elérhetővé téve az internet felől.
+
+
+HOGYAN LEHET MEGSZÜNTETNI
+------------------------------------------------------------
+Bármikor, azonnal, engedélykérés nélkül:
+
+  Az asztalon: "PAO távtámogatás - Eltávolítás"
+  jobbklikk -> Futtatás rendszergazdaként.
+
+Ez eltávolítja a szolgáltatást, a beléptetési fájlokat és a
+beállításokat. Ezután a támogató nem tud többé csatlakozni.
+
+Egyetlen dolog marad a gépen: a napló (lásd lent). Abban nincs
+jelszó és nincs beléptetési adat, és bármikor törölhető.
+
+Ugyanez megtalálható itt is:
+  C:\ProgramData\PAO-Tavoli-Support\Eltavolitas.bat
+
+
+NAPLÓ
+------------------------------------------------------------
+Ami a telepítéskor történt, itt olvasható:
+  C:\ProgramData\PAO-Tavoli-Support\Setup-PaoRemote.log

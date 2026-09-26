@@ -1,0 +1,12 @@
+{
+  "_megjegyzes": "Csomag-konfiguracio. A MeshAgent.msh a beleptetesi titkot tartalmazza — az a fajl NINCS ebben a repoban es soha ne is keruljon bele. Helyszinenkent kulon csomag, kulon eszkozcsoport.",
+  "helyszin": "Helyszin megnevezese",
+  "csoport": "eszkozcsoport-neve",
+  "szerverUrl": "https://mesh.example.com",
+  "agentWss": "wss://mesh.example.com:443/agent.ashx",
+  "szerverCertSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "agentExeSha256":    "0000000000000000000000000000000000000000000000000000000000000000",
+  "mshSha256":         "0000000000000000000000000000000000000000000000000000000000000000",
+  "csomagKeszult": "2026-01-01",
+  "ertesitesKapcsolatkor": true
+}

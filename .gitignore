@@ -1,0 +1,18 @@
+# ---------------------------------------------------------------------------
+# BELEPTETESI TITOK — soha nem kerulhet be.
+# Szandekosan TAG minta: helyszinenkent kulon csomag keszul, es a .msh fajl
+# neve elterhet (pl. <nev>.msh, kisbetus valtozat). Egy szuk minta nem fogna.
+# ---------------------------------------------------------------------------
+*.[mM][sS][hH]
+
+# Gyartoi binaris: a sajat MeshCentral szervered adja ki, nem ide valo
+[mM]esh[aA]gent*.[eE][xX][eE]
+
+# A valodi csomag-konfiguracio (szerver, cert-ujjlenyomat, csoportnev)
+pao-remote.json
+
+# Futaskor keletkezo allapot es titok a telepitett gepen — ha valaki a
+# C:\ProgramData\PAO-Tavoli-Support mappat visszamasolja ide, ez fogja ki
+*.[jJ][eE][lL][sS][zZ][oO]
+*.marker
+*.log
